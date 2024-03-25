@@ -48,3 +48,17 @@ To optimize the performance of the SVM model, hyperparameters such as the regula
 
 ## Model Comparison
 The performance of the SVM model is compared with that of the Convolutional Neural Network (CNN) model trained on the same dataset using the various metrics and the confusion matrices.
+
+### ConvNet Confusion Matrix
+![ConvNet Confusion](https://github.com/JuFrei/ShipsFromOrbit/blob/main/img/ConvNet%20Conf.png)
+
+### SVM Confusion Matrix
+![SVM Confusion](https://github.com/JuFrei/ShipsFromOrbit/blob/main/img/SVM%20Conf.png)
+
+### Convnet Misclassified Images
+![ConvNet Misclassified](https://github.com/JuFrei/ShipsFromOrbit/blob/main/img/ConvNet%20Misclassified.png)
+
+### SVM Misclassified Images
+![SVM Misclassified](https://github.com/JuFrei/ShipsFromOrbit/blob/main/img/SVM%20Misclassified.png)
+
+

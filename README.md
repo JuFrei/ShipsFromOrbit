@@ -70,7 +70,7 @@ The models where created from combinations of C (0.1, 1, 3, 5, 7, 10, 25) and ke
 * **kernel**: rbf
   
 ## Model Comparison
-The performance of the SVM model is compared with that of the Convolutional Neural Network (CNN) model trained on the same dataset using the various metrics and the confusion matrices.
+The performance of the SVM model is compared with that of the Convolutional Neural Network (CNN) model trained on the same dataset using the various metrics and the confusion matrices. Both models achieve an accuracy of 99.24%.
 
 ### ConvNet Confusion Matrix
 <img src="https://github.com/JuFrei/ShipsFromOrbit/blob/main/img/ConvNet%20Conf.png" width="50%">

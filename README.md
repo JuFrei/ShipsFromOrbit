@@ -1,5 +1,5 @@
-# Classifying Ships from Orbit
-This python notebook contains code for training a Convolutional Neural Network (CNN) using PyTorch for image classification tasks. Additionally, the code includes functionality for training a Support Vector Machine (SVM) classifier using Histogram of Oriented Gradient (HOG) features for comparison.
+# Ship Detection from Orbit
+This repository contains code for training and comparing two models for ship detection in satellite imagery: a Convolutional Neural Network (CNN) implemented in PyTorch and a Support Vector Machine (SVM) classifier using Histogram of Oriented Gradient (HOG) features.
 
 ## Data
 ### Source
@@ -84,6 +84,9 @@ The performance of the SVM model is compared with that of the Convolutional Neur
 ### SVM Misclassified Images
 ![SVM Misclassified](https://github.com/JuFrei/ShipsFromOrbit/blob/main/img/SVM%20Misclassified.png)
 
+## Result Interpretation
+The Convolutional Neural Network (CNN) and Support Vector Machine (SVM) models both perform well in ship detection, achieving an accuracy of 99.24%. This high accuracy demonstrates their effectiveness in distinguishing between ship and non-ship objects in satellite imagery. The confusion matrices reveal a notable distinction between the two models. The CNN model incorrectly classified three ships as non-ships, while it had no false positives. On the other hand, the SVM model had three false positives, where non-ship objects were classified as ships, but no false negatives occurred.
 
+The Support Vector Machine (SVM) tends to misclassify non-ship objects that have visual similarities with ships or ambiguous features. On the other hand, the Convolutional Neural Network (CNN) might misclassify ships due to similar background coloration.
 
 
